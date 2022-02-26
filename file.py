@@ -10,7 +10,8 @@ def read_file(filename: str):
         if len(re.findall('[0-9]', line)) != 0:
             nums.append(list(map(int, re.split('; |, | ', line))))
         else:
-            nums.append(list(re.split('; |, | ', line)))
+            str_list = list(re.split('; |, | ', line))
+            nums.append([str_val.rstrip() for str_val in str_list])
 
     return nums
 

@@ -1,2 +1,9 @@
-X V VI VIII VI
-7 14 12 8
+V
+VIII
+IX
+V
+5
+7
+VII
+1
+14
